@@ -1,0 +1,63 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+.navbar-brand {
+    color: #3D3D3D !important;
+    font-weight: 900;
+    letter-spacing: 5px;
+}      
+
+.navbar-nav {
+    float: right;
+}
+
+h1 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #515151;
+
+}
+
+.aboutmepara {
+    margin-top: 30px;
+}
+
+p {
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.pageheadings {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+
+
+.portfolioimge:hover {
+    filter: blur(40px);
+    opacity: 0.5;
+}
+
+#description {
+    
+    
+}
+
+.footertext { 
+    margin-top: auto;
+    background-color: #F8F9FA;
+    height: 40px;
+    
+
+}
+
+#footercopy {
+    width: 30%;
+    margin: auto;
+}
