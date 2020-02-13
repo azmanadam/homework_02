@@ -1,9 +1,12 @@
 body {
+    
     font-family: 'Open Sans', sans-serif;
 }
 
+
 img {
     width: 100%;
+    margin-top: 20px;
 }
 
 .navbar-brand {
@@ -32,6 +35,10 @@ p {
     line-height: 16px;
 }
 
+.aboutmetext {
+    margin-top: 20px;
+}
+
 .pageheadings {
     margin-top: 30px;
     margin-bottom: 10px;
@@ -49,15 +56,16 @@ p {
     
 }
 
-.footertext { 
-    margin-top: auto;
+footer { 
+    position: fixed;
+    width: 100%;
+    padding: 10px;
+    margin-top: -40px;
+    left: 0;
+    bottom: 0;
     background-color: #F8F9FA;
     height: 40px;
+    text-align: center;
     
-
 }
 
-#footercopy {
-    width: 30%;
-    margin: auto;
-}
