@@ -3,10 +3,6 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-.container {
-    
-}
-
 img {
     width: 100%;
     margin-top: 20px;
@@ -47,28 +43,65 @@ p {
     margin-bottom: 10px;
 }
 
+.filmphoto {
+    position: relative;
+    text-align: center;
+}
 
+.lifestylephoto {
+    position: relative;
+    text-align: center;
+}
+
+.surfphoto {
+    position: relative;
+    text-align: center;
+}
+
+.surfphototext {
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.lifestylephototext {
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.filmphototext {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.portfolioimge {
+    
+    filter: blur(40px);
+    opacity: 0.9;
+    
+}
 
 .portfolioimge:hover {
-    filter: blur(40px);
-    opacity: 0.5;
+    filter: blur(0px);
+    opacity: 1;
 }
 
-#description {
-    
-    
+.description {
+    color: whitesmoke;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 0.2px;
+    text-decoration: underline;
 }
 
-footer { 
-    position: fixed;
-    width: 100%;
-    padding: 10px;
-    margin-top: -40px;
-    left: 0;
-    bottom: 0;
-    background-color: #F8F9FA;
-    height: 40px;
-    text-align: center;
-    
-}
 
+
+}
